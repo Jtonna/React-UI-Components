@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.headerImage{
+    height: 40px;
+    border-radius: 25px;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+
+.postData {
+    color: rgb(187, 187, 187);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+}

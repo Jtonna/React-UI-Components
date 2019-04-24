@@ -3,7 +3,8 @@ import './Header.css';
 
 const ImageThumbnail = () => {
     // this is a stateless react component
-    return <img src="https://tk-assets.lambdaschool.com/1c1b7262-cf23-4a9f-90b6-da0d3c74a5c6_lambdacrest.png"/>
+    return <img alt="The lambda school logo" className="headerImage" src="https://pbs.twimg.com/profile_images/1119017796954808322/F1pUmZtW_400x400.png"/>
+    // decided to use the twitter logo as it looks better
 }
 
 export default ImageThumbnail;

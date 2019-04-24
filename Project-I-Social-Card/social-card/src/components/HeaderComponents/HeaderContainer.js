@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import ImageThumbnail from './ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
 
 const HeaderContainer = props => {
     // this is a Stateless component that recieves props.
@@ -12,11 +13,9 @@ const HeaderContainer = props => {
     // https://reactjs.co/2015/08/17/how-does-react-props-work/
 
     return(
-        <header className="header-container">
+        <header className="headerContainer">
             <ImageThumbnail />
-            <div>
-
-            </div>
+            <HeaderTitle />
         </header>
     );
 }
